@@ -1,7 +1,10 @@
 package com.codepath.bestsellerlistapp
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View.OnClickListener
 import com.codepath.bestsellerlistapp.R.id
 
 /**
@@ -15,5 +18,18 @@ class MainActivity : AppCompatActivity() {
         val supportFragmentManager = supportFragmentManager
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(id.content, BestSellerBooksFragment(), null).commit()
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
